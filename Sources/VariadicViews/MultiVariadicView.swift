@@ -13,7 +13,7 @@ public struct MultiVariadicView<Content: View, Body: View>: View {
     
     private let _tree: _VariadicView.Tree<ViewRoot, Content>
     
-    /// Creates an instance of `VariadicView`.
+    /// Creates an instance of `MultiVariadicView`.
     ///
     /// - Parameters:
     ///   - content: The view content from which child views are inserted.
