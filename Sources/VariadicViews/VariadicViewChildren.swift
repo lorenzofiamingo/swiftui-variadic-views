@@ -35,7 +35,7 @@ extension VariadicViewChildren: RandomAccessCollection {
             _element.id
         }
         
-        func id<ID: Hashable>(as _: ID.Type = ID.self) -> ID? {
+        public func id<ID: Hashable>(as _: ID.Type = ID.self) -> ID? {
             _element.id(as: ID.self)
         }
         
