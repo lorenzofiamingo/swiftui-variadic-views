@@ -9,7 +9,7 @@ import SwiftUI
 public struct UnaryVariadicView<Content: View, Body: View>: View {
     
     /// Represents the collection of views of the `VariadicView` content.
-    public typealias Children = AnyView
+    public typealias Children = VariadicViewChildren
     
     private let _tree: _VariadicView.Tree<ViewRoot, Content>
     
